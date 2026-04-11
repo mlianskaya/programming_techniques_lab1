@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sorting Algorithms Project (Variant 16): Файл DataIO.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Sorting Algorithms Project (Variant 16)
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл DataIO.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Заголовочный файл для ввода/вывода данных и генерации.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="_applicant_8hpp_source.html">Applicant.hpp</a>&quot;</code><br />
+</div>
+<p><a href="_data_i_o_8hpp_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a36747b2b4b5676be518f57f8169fe5bb" id="r_a36747b2b4b5676be518f57f8169fe5bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36747b2b4b5676be518f57f8169fe5bb">generateAndSaveData</a> (size_t size, const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a36747b2b4b5676be518f57f8169fe5bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Генерирует случайные данные указанного размера и сохраняет их в файл (в папку raw/).  <br /></td></tr>
+<tr class="separator:a36747b2b4b5676be518f57f8169fe5bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c430c66facd577c09f792f48d88e86d" id="r_a3c430c66facd577c09f792f48d88e86d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c430c66facd577c09f792f48d88e86d">loadData</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a3c430c66facd577c09f792f48d88e86d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Загружает данные из файла (из папки raw/).  <br /></td></tr>
+<tr class="separator:a3c430c66facd577c09f792f48d88e86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f5cbf1c34de55de0c906235ae37dc5" id="r_a89f5cbf1c34de55de0c906235ae37dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f5cbf1c34de55de0c906235ae37dc5">saveAllSortedToFile</a> (const std::string &amp;filename, const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;sorted_selection, const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;sorted_heap, const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;sorted_merge, const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;sorted_std)</td></tr>
+<tr class="memdesc:a89f5cbf1c34de55de0c906235ae37dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сохраняет четыре отсортированных массива в один файл (в папку sorted/) с подписями.  <br /></td></tr>
+<tr class="separator:a89f5cbf1c34de55de0c906235ae37dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Заголовочный файл для ввода/вывода данных и генерации. </p>
+</div><h2 class="groupheader">Функции</h2>
+<a id="a36747b2b4b5676be518f57f8169fe5bb" name="a36747b2b4b5676be518f57f8169fe5bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36747b2b4b5676be518f57f8169fe5bb">&#9670;&#160;</a></span>generateAndSaveData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void generateAndSaveData </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Генерирует случайные данные указанного размера и сохраняет их в файл (в папку raw/). </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>Количество элементов. </td></tr>
+    <tr><td class="paramname">filename</td><td>Базовое имя файла (без пути). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3c430c66facd577c09f792f48d88e86d" name="a3c430c66facd577c09f792f48d88e86d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c430c66facd577c09f792f48d88e86d">&#9670;&#160;</a></span>loadData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; loadData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Загружает данные из файла (из папки raw/). </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Базовое имя файла (без пути). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Вектор загруженных объектов. </dd></dl>
+
+</div>
+</div>
+<a id="a89f5cbf1c34de55de0c906235ae37dc5" name="a89f5cbf1c34de55de0c906235ae37dc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f5cbf1c34de55de0c906235ae37dc5">&#9670;&#160;</a></span>saveAllSortedToFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void saveAllSortedToFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>filename</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sorted_selection</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sorted_heap</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sorted_merge</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_applicant.html">Applicant</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>sorted_std</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Сохраняет четыре отсортированных массива в один файл (в папку sorted/) с подписями. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Базовое имя файла (без пути). </td></tr>
+    <tr><td class="paramname">sorted_selection</td><td>Отсортированный массив методом selection. </td></tr>
+    <tr><td class="paramname">sorted_heap</td><td>Отсортированный массив методом heap. </td></tr>
+    <tr><td class="paramname">sorted_merge</td><td>Отсортированный массив методом merge. </td></tr>
+    <tr><td class="paramname">sorted_std</td><td>Отсортированный массив методом std::sort. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>
