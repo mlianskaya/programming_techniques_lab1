@@ -1,13 +1,13 @@
 # Лабораторная работа №1: Тестирование и сравнение алгоритмов сортировки для записей об абитуриентах (вариант 16)
 
 ## Документация Doxygen
-[![Docs](html)](html)
+[Docs](https://github.com/mlianskaya/programming_techniques_lab1/tree/7fac9d1a54647763fd6f73d327d027b0be0994b8/html)
 
 ## Исходный код
 [GitHub](https://github.com/mlianskaya/programming_techniques.git)  
 
 ## Графики
-![sorting_plot.png](sorting_plot.png)
+![sorting_plot.png](https://github.com/mlianskaya/programming_techniques_lab1/blob/7fac9d1a54647763fd6f73d327d027b0be0994b8/sorting_plot.png?raw=true)
 
 ## Описание
 В работе реализованы алгоритмы сортировки: выбором, пирамидальная, слиянием и `std::sort`.  
